@@ -1,0 +1,31 @@
+:root{
+    --orange: #d95550;
+    --lightOrange: #dd6662;
+    --veryLightOrange: #f89e8b;
+    --gray: #55557b;
+    --white: #fff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: var(--orange);
+}
+
+.logo{
+    width: 300px;
+    position: absolute;
+    top: 0px;
+    right: 30px;
+    border-radius: 50%;
+}
+
+h1{
+    margin-top: 200px;
+    color: var(--white);
+    text-align: center;
+}
