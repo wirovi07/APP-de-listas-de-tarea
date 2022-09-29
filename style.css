@@ -17,10 +17,10 @@ body{
 }
 
 .logo{
-    width: 300px;
+    width: 150px;
     position: absolute;
-    top: 0px;
-    right: 30px;
+    top: 20px;
+    right: 20px;
     border-radius: 50%;
 }
 
@@ -28,4 +28,66 @@ h1{
     margin-top: 200px;
     color: var(--white);
     text-align: center;
+}
+
+form{
+    /* border: 1px solid; */
+    width: 400px;
+    margin: 40px auto;
+    text-align: center;
+}
+form input[type="text"]{
+    background-color: var(--orange);
+    color: var(--white);
+    border-style: none;
+    font-size: 1.5em;    
+}
+form input[type="text"]::placeholder{
+    color: var(--veryLightOrange);
+}
+form input[type="text"]:focus{
+    outline: none;
+}
+form input[type="submit"]{
+    font-size: 2rem;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border-style: none;
+    color: var(--orange);
+}
+form input[type="submit"]:hover{
+    background-color: var(--veryLightOrange);
+    cursor: pointer;
+    color: var(--white);
+}
+
+.list-container{
+    width: 400px;
+    margin: 0 auto;
+}
+.task-container{
+    background-color: var(--white);
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 16px;
+    border-radius: 4px;
+    font-size: 1.1em;
+    font-weight: 400;
+    color: var(--gray);
+}
+.classBtn{
+    width: 20px;
+    height: 20px;
+}
+.classBtn:hover {
+     cursor: pointer;
+}
+
+#stats{
+   margin-top: 25px;
+   font-size: 1.3em; 
+   color: var(--veryLightOrange);
+   text-align: center;
 }
